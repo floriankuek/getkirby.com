@@ -12,7 +12,7 @@
 				], [
 					'loading' => 'lazy'
 				]) ?>
-			<?php elseif ($img = $entry->image()): ?>
+			<?php elseif ($img = $entry->cover()) : ?>
 				<?= $img->resize(800, 400) ?>
 			<?php endif ?>
 		</figure>
